@@ -749,16 +749,12 @@ outline: transparent;
     pointer-events: none;
 }
 
-
-
 .modal-form-icon:focus {
    fill: #4D5AE5;
 }
 
-
 .modal-form-comment {
 margin-bottom: 16px;
-margin-bottom: 24px;
 }
 
 .textarea-modal {
@@ -791,9 +787,14 @@ color: #2E2F42;
 }
 
 .modal-form-agreement {
-margin-bottom: 16px;
+margin-bottom: 24px;
 }
 
+.agreement-input + .agreement-label > .modal-form-checkbox {
+    background-color: #404bbf;
+    border: none;
+    fill: #f4f4fd;
+}
 
 .agreement-label {
     font-size: 12px;
